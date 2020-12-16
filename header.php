@@ -29,9 +29,9 @@ $theme_dir = get_template_directory_uri();
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title><?php bloginfo('name'); wp_title(' / '); ?></title>
-	<link rel="stylesheet" href="<?php echo( get_stylesheet_directory_uri() ); ?>/css/swiper.min.css">
-	<link rel="stylesheet" href="<?php echo( get_stylesheet_directory_uri() ); ?>/css/style.css">
-	<link rel="stylesheet" href="<?php echo( get_stylesheet_directory_uri() ); ?>/css/form.css" />
+	<link rel="stylesheet" href="<?php echo( get_stylesheet_directory_uri() ); ?>/css/swiper.min.css?<?php echo date_i18n('Ymd-His'); ?>">
+	<link rel="stylesheet" href="<?php echo( get_stylesheet_directory_uri() ); ?>/css/style.css?<?php echo date_i18n('Ymd-His'); ?>">
+	<link rel="stylesheet" href="<?php echo( get_stylesheet_directory_uri() ); ?>/css/form.css?<?php echo date_i18n('Ymd-His'); ?>" />
 <!-- href属性にファビコンファイルのURIを記述 -->
 <link rel="shortcut icon" href="<?php echo( get_stylesheet_directory_uri() ); ?>/images/logo_shortcut_icon.svg">
 
@@ -113,7 +113,7 @@ if( $outputsheet != '' ){
 }
 ?>
 <?php if(is_single()): ?>
-	<link href="<?php echo get_template_directory_uri(); ?>/css/single.css"  rel="stylesheet">
+	<link href="<?php echo get_template_directory_uri(); ?>/css/single.css?<?php echo date_i18n('Ymd-His'); ?>"  rel="stylesheet">
 <?php endif; ?>
 <?php wp_head(); ?>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
