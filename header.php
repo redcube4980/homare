@@ -116,6 +116,8 @@ if( $outputsheet != '' ){
 	<link href="<?php echo get_template_directory_uri(); ?>/css/single.css"  rel="stylesheet">
 <?php endif; ?>
 <?php wp_head(); ?>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script defer src="/js/deletecondition.js"></script>
 </head>
 <body class="<?php if(is_front_page()) echo 'top-page'; ?>">
 <div class="wrap">

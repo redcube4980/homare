@@ -98,14 +98,13 @@
   height: auto;
 }
 .concept-brandlist h3 {
-  line-height: 1;
-  color: #AE924F;
-  font-size: 3.8vw;
-  text-align: center;
-  order: 2;
-  margin-bottom: 30px;
-  padding-top: 0px;
-  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	color: #AE924F;
+    font-size: 3.8vw;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    order: 2;
 }
 @media screen and (min-width: 768px) {
   .concept-intro h2 {
@@ -123,14 +122,8 @@
 	letter-spacing: 4px;
 }
 .concept-brandlist h3 {
-  line-height: 0.2;
-  color: #AE924F;
-  font-size: 26px;
-  text-align: center;
-  order: 2;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    font-size: 26px;
+    margin-bottom: 0px;
 }
 .concept-brandlist {
     margin: 0 20px;
@@ -145,14 +138,7 @@
   padding-left: 0px;
 }
 .concept-brandlist h3 {
-  line-height: 0.2;
-  color: #AE924F;
-  font-size: 20px;
-  text-align: center;
-  order: 2;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    font-size: 20px;
 }
 }
 @media screen and (min-width: 920px) {
@@ -208,13 +194,6 @@
   padding-left: 0px;
 }
 .concept-brandlist h3 {
-  line-height: 0.2;
-  color: #AE924F;
-  font-size: 26px;
-  text-align: center;
-  order: 2;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    font-size: 26px;
 }
 }
