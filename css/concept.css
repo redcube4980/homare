@@ -140,6 +140,13 @@
 .concept-brandlist h3 {
     font-size: 20px;
 }
+body.notWin.Safari.desktop .concept-brandlist h3 {
+    font-size: 17px;
+}
+body.Win.Ie.desktop .concept-brandlist li img {
+    width: 185px;
+    height: 361px;
+}
 }
 @media screen and (min-width: 920px) {
 .image-header .page-catchcopy {
@@ -195,5 +202,12 @@
 }
 .concept-brandlist h3 {
     font-size: 26px;
+}
+body.notWin.Safari.desktop .concept-brandlist h3 {
+    font-size: 23px;
+}
+body.Win.Ie.desktop .concept-brandlist li img {
+    width: 230px;
+    height: 450px;
 }
 }

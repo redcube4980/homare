@@ -225,6 +225,9 @@ main {
 	letter-spacing: 2px;
 	text-align: left;
 }
+body.notWin.Safari.desktop .introduction-delegate-comment{
+	font-size: 1.7vw;
+}
 table{
 	width: 100%;	
 	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
@@ -332,11 +335,14 @@ main::after {
 }
 .introduction-delegate-comment{
 	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
-	font-size: 21px;
+	font-size: 20px;
 	line-height: 41px;
 	margin: 0px 0 0;
 	letter-spacing: 2px;
 	text-align: left;
+}
+body.notWin.Safari.desktop .introduction-delegate-comment{
+	font-size: 18px;
 }
 table{
 	width: 1000px;	
