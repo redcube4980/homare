@@ -264,16 +264,23 @@ wp_reset_postdata();
 		<div class="widget-list" id="widget-list">
 			<div data-scroll="once" class="widget-item"><?php get_sidebar('instagram'); ?></div>
 			<!--<div class="widget-item"><div class="widget-item-inner"><img src="https://placehold.jp/30px/f13f79/ffffff/300x380.jpg?text=Instagram" width="100%" alt="Instagram"></div></div>-->
-			<div data-scroll="once" class="widget-item"><div class="widget-item-inner" id="widget-twitter"></div></div>
-<!--<a class="twitter-timeline" href="https://twitter.com/HomareSyuzo?ref_src=twsrc%5Etfw" data-width="300" data-height="380">Tweets by HomareSyuzo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
+			<div id="widget-item-twitter" data-scroll="once" class="widget-item"><div class="widget-item-inner" id="widget-twitter"></div></div>
+			<!--<a class="twitter-timeline" href="https://twitter.com/HomareSyuzo?ref_src=twsrc%5Etfw" data-width="100%" data-height="380">Tweets by HomareSyuzo</a>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
 <script language="javascript">
 (function($){
 	var wid = parseInt($('#widget-twitter').width()) > 500 ? 500 : parseInt($('#widget-twitter').width());
 	var hei = parseInt(wid * 380 / 300);
+	var agent = window.navigator.userAgent.toLowerCase();
+	var ie11 = (agent.indexOf('trident/7') !== -1);
+	var sns = document.querySelector('.js-ie');
+	if (ie11){
+		sns.classList.add('is-hidden');
+	}
 	$('#widget-twitter')
 		.width( wid )
 		.height( hei )
-		.append('<a class="twitter-timeline" href="https://twitter.com/HomareSyuzo?ref_src=twsrc%5Etfw" data-width="' + wid + '" data-height="' + hei + '">Tweets by HomareSyuzo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8">')
+		.append('<div class="twitter js-ie"><a class="twitter-timeline" href="https://twitter.com/HomareSyuzo?ref_src=twsrc%5Etfw" data-width="' + wid + '" data-height="' + hei + '">Tweets by HomareSyuzo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></div>')
 		.parent().height( hei );
 })(jQuery);
 </script>

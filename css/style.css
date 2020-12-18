@@ -23,7 +23,9 @@ a[href^="tel"]{
   opacity: 1.0;
   transform: translateY(0px);
 }
-
+body.Win.Ie.desktop #widget-item-twitter {
+    background-color: transparent;
+}
 /*******************************
 	汎用
 *******************************/
@@ -2530,13 +2532,15 @@ body.plugin ._li._li._li div #u_0_0 div ._2p3a #u_0_4 ._10b4{
     -webkit-justify-content: space-between;
     justify-content: space-between;
   }
-
+　body.Win.Ie.desktop .widget-list {
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  }
   .widget-item {
     flex: 0 0 300px;
 		background-color: #ffffff;
   }
 }
-
 /* 2018/03 Redcube */
 @media screen and (min-width: 920px) {
 	nav.global-menu ul {
