@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>ほまれ酒造</title>
+		<title></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="<?php echo( get_stylesheet_directory_uri() ); ?>/assets/css/main_hahanohi.css" />

@@ -189,6 +189,21 @@
 
 	}
 
+.navigation.post-navigation h2 {
+    font-size: 25px;
+    margin: 30px 0 0;
+    text-align: center;
+}
+.nav-links {
+    width: 300px;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.fa.fa-angle-left {
+    margin-right: 5px;
+}
 	@media screen and (max-width: 736px) {
 
 		.container.\31 25\25 {
@@ -1753,6 +1768,10 @@
 			margin: 0 0 4em 0;
 		}
 
+#main.terroir .image.featured {
+    margin-bottom: 0;
+}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1990,7 +2009,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #602D1D;
+		background: #E9546B;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2012,7 +2031,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #86CEEF;
+			background: #ef8376;
 		}
 
 		input[type="button"].alt,
@@ -2096,7 +2115,7 @@
 
 	#header {
 		position: relative;
-		background-image: url("https://www.aizuhomare.jp/wp/wp-content/themes/homare2018/assets/images/header.jpg");
+		background-image: url("../../images/header_M.jpg");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;

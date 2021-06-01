@@ -511,7 +511,7 @@ header.openNav .global-menu ul {
   header .global-menu li a {
     color: #fff;
 	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
-    font-size: 1.35rem;
+    font-size: 12px;
     height: 100%;
     line-height: 62px;
     box-sizing: border-box;
@@ -1032,7 +1032,6 @@ footer .global-menu {
     font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
     color: #fff;
     font-size: 12px;
-    font-size: 1.35rem;
     height: 100%;
     line-height: 62px;
     box-sizing: border-box;

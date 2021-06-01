@@ -141,6 +141,24 @@
 	line-height: 1;
 	margin-bottom: 10vw;
 	}
+.attention h3 {
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 3.5vw;
+}
+.attention {
+  color: #AE924F;
+  font-size: 3vw;
+  text-align: left;
+  font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+  margin-bottom: 0;
+}
+.attention p::before {
+  content: "※";
+}
+.attention p span {
+	margin-left: 3.2vw;
+}
 .karahashi-item a {
     display: block;
     width: 100%;
@@ -158,7 +176,7 @@
 	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 .fa-caret-right {
-    font-size: 24pxs;
+    font-size: 24px;
     vertical-align: middle;
     margin-top: -5px;
     margin-right: 10px;
@@ -201,8 +219,7 @@
   margin: 12.5vw 20px 25vw;
 }
 .karahashi-shop h2 {
-  background: #AE924F;
-  color: #000;
+  color: #AE924F;
   font-size: 5vw;
   line-height: 6.25vw;
   font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
@@ -217,59 +234,35 @@
   text-align: center;
   margin: 10vw 0 0;
 }
-.karahashi-shop-1 h3 {
-  color: #AE924F;
+.karahashi-shop h3 {
+  color: #000;
   border-bottom: 2px solid #AE924F;
   font-size: 5vw;
-  line-height: 5vw;
   margin: 5vw 0 0;
-  padding-bottom: 2vw;
+  background-color: #AE924F;
+  padding: 10px;
 }
-.karahashi-shop-1 dl {
+.karahashi-shop dl {
   margin: 0;
 }
-.karahashi-shop-1 dt {
+.karahashi-shop dt {
   color: #AE924F;
   font-size: 3.125vw;
   line-height: 5vw;
   margin: 2.8125vw 0 0;
 }
-.karahashi-shop-1 dd {
+.karahashi-shop dd {
   border-bottom: 1px dotted #AE924F;
   margin: 0;
   font-size: 3.125vw;
   line-height: 5vw;
   padding-bottom: 2.8125vw;
 }
-.karahashi-shop-1 dd a {
+.karahashi-shop dd a {
   color: #fff;
 }
-.karahashi-shop-2 h3 {
-  border-bottom: 2px solid #fff;
-  line-height: 5vw;
-  margin: 4.21875vw 0 0;
-  font-size: 4vw;
-  line-height: 4vw;
-  margin: 20px 0 0;
-  padding-bottom: 2vw;
-}
-.karahashi-shop-2 dl {
-  margin: 0;
-}
-.karahashi-shop-2 dt {
-  font-size: 3.125vw;
-  line-height: 5vw;
-  margin: 2.8125vw 0 0;
-}
-.karahashi-shop-2 dd {
-  border-bottom: 1px dotted #fff;
-  margin: 0;
-  font-size: 3.125vw;
-  line-height: 5vw;
-  padding-bottom: 2.8125vw;
-}
-.karahashi-shop-2 dd a {
-  color: #fff;
+.karahashi-shop-2, .karahashi-shop-3 {
+    padding-top: 50px;
 }
 @media screen and (min-width: 768px) {
 .karahashi-intro {
@@ -283,6 +276,7 @@
     font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
     letter-spacing: 5px;
 }
+
 .karahashi-intro p {
     letter-spacing: .2em;
     line-height: 37px;
@@ -464,6 +458,16 @@
 	line-height: 1;
 	margin-bottom: 0;
 	}
+.attention h3 {
+    font-size: 28px;
+	margin-bottom: 5px;
+}
+.attention {
+  font-size: 19px;
+}
+.attention p span {
+	margin-left: 22px;
+}
   .karahashi-item a {
     width: 280px;
     height: 36px;
@@ -511,40 +515,21 @@
     line-height: 46px;
     margin: 40px 0;
 }
-.karahashi-shop-1 h3 {
-    color: #AE924F;
-    border-bottom: 2px solid #AE924F;
+.karahashi-shop h3 {
     font-size: 30px;
-    line-height: 36px;
     margin: 30px 0 0;
 }
-.karahashi-shop-1 dt {
+.karahashi-shop dt {
     font-size: 24px;
     line-height: 36px;
     margin: 20px 0 0;
 }
-  .karahashi-shop-1 dd {
+  .karahashi-shop dd {
     font-size: 24px;
     line-height: 36px;
     padding-bottom: 20px;
 }
-.karahashi-shop-2 h3 {
-    border-bottom: 2px solid #fff;
-    font-size: 4.21875vw;
-    line-height: 5vw;
-    margin: 4.21875vw 0 0;
-    font-size: 30px;
-    line-height: 36px;
-    margin: 30px 0 0;
+.karahashi-shop-2, .karahashi-shop-3 {
+    padding-top: 15%;
 }
-.karahashi-shop-2 dt {
-    font-size: 24px;
-    line-height: 36px;
-    margin: 20px 0 0;
-}
-  .karahashi-shop-2 dd {
-    font-size: 24px;
-    line-height: 36px;
-    padding-bottom: 20px;
-  }
 }

@@ -31,6 +31,8 @@ Template Name: page-concept
 		    <a href="<?php home_url( );?>/premium"><img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/concept/junmaidaiginjo.jpg" alt="純米大吟醸酒 画像" border="0"></a></li>
 			<li><h3>『からはし』ブランド</h3>
 		    <a href="<?php home_url( );?>/karahashi"><img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/concept/karahashi.jpg" alt="『からはし』ブランド 画像"></a></li>
+			<li><h3><span class="border">KITAKATA TERROIR</span><br><span class="jp">喜多方テロワール</span></h3>
+		    <a href="https://www.aizuhomare.jp/sp/kitakataterroir"><img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/concept/kitakataterroir.jpg" alt="喜多方テロワール 画像"></a></li>
 			<li><h3>季節限定酒</h3>
 		    <a href="<?php home_url( );?>/season"><img src="<?php echo( get_stylesheet_directory_uri() ); ?>/images/concept/murokajunmaiseigenshu.jpg" alt="季節限定酒 画像"></a></li>
 			<li><h3>会津ほまれ 化粧水</h3>
