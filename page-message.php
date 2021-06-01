@@ -23,22 +23,10 @@ Template Name: page-message
 			<div class="introduction-delegate-text">
 				<div class="introduction-delegate-name">唐橋 裕幸<br><span>Hiroyuki karahasi</span></div>
 				<p class="introduction-delegate-heading">社員ひとりひとりが、<br>ブランドをつくる。</p>
-				<p class="introduction-delegate-comment">
-					２０１８年、当蔵は創業１００周年を迎えます。<br>
-酒蔵としては、まだまだ若輩者ではありますが、<br>
-ようやく老舗の名を語れるようになりました。<br>
-ここまで辿り着けたのも、<br>
-これまで培った「伝統」と「文化」を大切にしながら、<br>
-常に新たな「挑戦」を重ねてきた結果にあると、<br>
-私どもは考えます。<br>
-				</p>
+				<p class="introduction-delegate-comment">２０１８年、当蔵は創業１００周年を迎えます。<br class="sp-br">酒蔵としては、まだまだ若輩者ではありますが、<br class="sp-br">ようやく老舗の名を語れるようになりました。<br class="sp-br">ここまで辿り着けたのも、これまで培った「伝統」と「文化」を大切にしながら、<br class="sp-br">常に新たな「挑戦」を重ねてきた結果にあると、<br class="sp-br">私どもは考えます。</p>
 			</div>
 			<div class="introduction-delegate-text2">
-				<p class="introduction-delegate-comment">
-				今後も、「品質向上」そして、企業としての「存在意義」を高めるべく挑戦を重ね、<br>
-お客様に、「安らぎ」と「喜び」、そして「感動」を与えることが出来る「ものづくり」を目指し、<br>
-２００周年に向け精進して参ります。
-				</p>
+				<p class="introduction-delegate-comment">今後も「品質向上」そして、<br class="sp-br">企業としての「存在意義」を高めるべく挑戦を重ね、<br class="sp-br">お客様に「安らぎ」と「喜び」、<br class="sp-br">そして「感動」を与えることが出来る<br class="sp-br">「ものづくり」を目指し、<br class="sp-br">２００周年に向け精進して参ります。</p>
 			</div>
 		</div>
 <!--

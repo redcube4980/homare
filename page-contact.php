@@ -13,12 +13,7 @@ get_header();
 			<h1 class="page-title">お問い合わせ（入力ページ）</h1>
 		</div>
 		<section class="contact-intro">
-			<p>内容によっては回答をさしあげるのに<br class="sp">お時間をいただくこともございます。<br>
-			また、休業日・営業時間終了後は<br class="sp">翌営業日以降の対応となりますのでご了承ください。<br>
-			お電話でのお問合せは<br>
-			ネット通販に関するお問合せ：<br class="sp">0241-23-5505<br>
-			お電話でのご購入や見学・その他お問合せ：<br class="sp">0241-22-5151<br>
-			までお願いいたします。</p>
+			<p>内容によっては回答をさしあげるのに<br class="sp">お時間をいただくこともございます。<br>また、休業日・営業時間終了後は<br class="sp">翌営業日以降の対応となりますので<br class="pc">ご了承ください。<br>お電話でのお問合せは<br>ネット通販に関するお問合せ：<br class="sp">0241-23-5505<br>お電話でのご購入や見学・その他お問合せ：<br class="sp">0241-22-5151<br>までお願いいたします。</p>
 		</section>
 		<section class="company-overview">
 			<div class="table-wrap">

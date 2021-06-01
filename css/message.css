@@ -179,8 +179,6 @@ main {
 }
 .introduction-delegate-text{
 	width: 52%;
-	float: left;
-	margin-top: 20px;
 	margin-right: 2%;
 }
 .introduction-delegate-text2{
@@ -223,7 +221,10 @@ main {
 	line-height: 1.8;
 	margin: 2% 0 0;
 	letter-spacing: 2px;
-	text-align: left;
+	text-align: justify;
+}
+.sp-br {
+    display: none;
 }
 body.notWin.Safari.desktop .introduction-delegate-comment{
 	font-size: 1.7vw;
