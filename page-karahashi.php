@@ -21,7 +21,7 @@ Template Name: page-karahashi
 		<section class="karahashi-intro">
 			<h2>『からはし』ブランドとは</h2>
 			<p>
-				「からはし」は、蔵元の姓である<br class="sp">「唐橋」からとった<br class="sp">ほまれ酒造の新しいブランドです。<br>
+				「からはし」は、蔵元の姓である<br class="sp">「唐橋」からとった<br>ほまれ酒造の新しいブランドです。<br>
 				丁寧な造りと瓶火入れ、出荷直前まで-5℃での<br class="sp">冷蔵貯蔵など、<br>
 				常に最高の状態でお召し上がりいただけるよう、<br>日本酒としての品質を<br class="sp">徹底的に追求したお酒です。 
 			</p>
